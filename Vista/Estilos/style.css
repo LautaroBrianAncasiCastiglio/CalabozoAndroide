@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+/* modificar el header */
+header{
+background-color: white;
+width: 100%;
+height: 15vh;
+margin-top: -1.5vh;
+
+position:fixed;
+display: flex;
+z-index: 999;
+justify-content: center;
+}
+.navIcono {
+    width: 40vh;
+    margin-left: auto;
+}
+
+.navIcono img{
+    width: 49.271%;
+    height: 100%;
+    margin:auto;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.navLogo .logo{
+    width: 7.5VW;
+    
+}
+nav .cuenta{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 40PX;
+}
+nav .carro{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 190px;
+}
+
+/* modificar las redes sociales */
+#Redes{
+    height: 400px;
+    width: 120px;
+    z-index: 998;
+    position: fixed;
+    display: flex; 
+    flex-direction: column;
+    margin-top:69vh;
+    margin-left: 94vw;
+}
+#Redes a img{
+    background-color: black;
+    width: 65px;
+    height: 65px;
+    margin-top: 5px;
+
+    border-radius: 100px;
+    
+}
+/* modificar el carrusel inicial */
+.carousel-item{
+    margin-top: 20VH;
+    height: 70vh;
+    width: 100%;
+    image-rendering:optimizeSpeed;
+}
+.carousel-inner{
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+/* Modificar las cartas de manga , comic */
+#cartas{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+#cartas .carta{
+    width: 32vw;
+    height: 45vh;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(/Media/Logo.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#cartas .carta .boton{
+     background: transparent;
+     color:rgb(0, 0, 0);
+     padding: 5px 35%;
+     text-decoration: none;
+     font-size: 30px;
+     margin-left: 3vw;
+     margin-top: 23vh;
+     border: solid 2.5px black;
+     border-radius: 50vw;
+     transition: 0.5s;
+}
+#cartas .carta .boton:hover{
+    cursor: pointer;
+    border: solid 1px rgb(0, 0, 0);
+}
+#cartas .carta h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 55px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    height: 16vh;
+}
+.categorias{
+    color: black;
+    width: 100vw;
+    height: 15vh;
+    padding-left: 10px;
+}
+.RedesSociales{
+    width: 100vw;
+    height: 15vh;
+    padding-left: 10px;
+
+    color: black;
+}
+.RedesSociales img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.terminosLegales{
+    width: 100%;
+    margin-top: 15.5vh;
+    padding-top: 10px;
+    position: absolute;
+    border-top: 1px black solid;
+}
