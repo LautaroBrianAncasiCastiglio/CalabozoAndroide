@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    width: 30vw;
+    height: auto;
+    margin: 4vh auto 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 2vw;
+    background-color: rgb(158, 158, 158);
+}
+.contenedor img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 10px auto 10px;
+}
+
+.ingresar{
+    width: 90%;
+    height: 15vh;
+    margin: 0 auto;
+}
+.ingresar .titulo{
+    margin: 1vh 20px 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.ingresar .input{
+    width: 97%;
+    height: 6vh;
+    margin: auto;
+    margin-left: -1vh ;
+    padding:0px 10px ;
+    
+    border-radius: 100px;
+    border: 3px solid gray;
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}
+#Ingresar{
+    display: flex;
+    margin: 3vh auto ;
+    
+    border-radius: 2vw;
+    border: 3px solid rgb(143, 143, 143);
+    background-color: white;
+    width: 50%;
+    height: 60px;
+    cursor: pointer;
+
+    font-weight: 1000;
+    font-size: large;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    height: 16vh;
+    margin-top: 100px;
+}
+.categorias{
+    color: black;
+    width: 100vw;
+    height: 15vh;
+    padding-left: 10px;
+}
+.RedesSociales{
+    width: 100vw;
+    height: 15vh;
+    padding-left: 10px;
+
+    color: black;
+}
+.RedesSociales img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.terminosLegales{
+    width: 100%;
+    margin-top: 17.5vh;
+    padding-top: 10px;
+    position: absolute;
+    border-top: 1px black solid;
+}

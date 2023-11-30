@@ -1,4 +1,4 @@
 <?php
-    $conexion = new mysqli("localhost","root","","CalabozoAndroide");
+    $conexion = new mysqli("localhost","root","","mangawebbd");
     $conexion -> set_charset("utf8");
 ?>

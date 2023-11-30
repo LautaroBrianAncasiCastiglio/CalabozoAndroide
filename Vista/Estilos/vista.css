@@ -1,0 +1,46 @@
+
+
+/* carta del producto  */
+.apartadoComics{
+    display :left ;
+    }
+    .producto{
+        width: 400px;
+        height: 500px;
+        background-color: aqua;
+        padding: 10px;
+        margin :30px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+    .producto .titulo{
+        margin: 0 auto;
+        font-size:x-large ;
+        color: black;
+    }
+    .producto img{
+        background-color: black;
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .producto .precio{
+        margin: 0 auto;
+        font-size: x-large;
+        color: black;
+    }
+    .producto .autor{
+        font-size: large;
+        margin: 30px 70% -45px;
+    }
+    .producto .genero{
+        font-size: large;
+    }
+    .producto .subgenero{
+        font-size: large;
+    }
+    .producto .fecha{
+        font-size:medium;
+        margin: 0 78% -10px;
+    }

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: gray;
+    height: 100px;
+}
+main{
+    padding-top:11vh;
+}
+.contenedor-principal{
+    display: flex;
+    margin-bottom: 200px;
+}
+.contenedor1{
+    width: 30vw;
+    height: auto;
+    margin: 10px auto;
+    margin-left: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    border-radius: 2vw 0px 0vw 2vw;
+    background-color: rgb(158, 158, 158);
+}
+.contenedor2{
+    width: 30vw;
+    height: auto;
+    margin: 10px auto;
+    margin-right: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    border-radius: 0vw 2vw 2vw 0vw;  
+    background-color: rgb(158, 158, 158);
+}
+.contenedor img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 10px auto 10px;
+}
+
+.ingresar{
+    width: 90%;
+    height: 15vh;
+    margin: 0 auto;
+}
+.ingresar .titulo{
+    margin: 1vh 20px 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.ingresar .input{
+    width: 97%;
+    height: 6vh;
+    margin: auto;
+    margin-left: -1vh ;
+    margin-bottom: -190px;
+    
+    border-radius: 100px;
+    border: 3px solid gray;
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+    font-weight: 300;
+}
+.ingresar a {
+    margin-top:5vh;
+    calor:black;
+}
+.ingresarC{
+    width: 90%;
+    height: 7.5vh;
+    margin: 0 auto;
+    display: flex;
+}
+.ingresarC .titulo{
+    margin: 1vh 20px 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.ingresarC .chek{
+    background-color: aqua;
+    height: 25px;
+    width: 400px;
+    margin-left: -10px;
+}
+.ingresarC p{
+    margin: 1vh 20px 1vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+.imagenP{
+    width: 97%;
+    height: 6vh;
+    margin: auto;
+    margin-left: -1vh ;
+    padding:0px 10px ;
+    
+    border-radius: 100px;
+    border: 3px solid gray;
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+    font-weight: 300;
+}
+
+.numeros{
+    display: flex;
+}
+.numeros .ingresar{
+    width: 39%;
+}
+.numeros .ingresar .titulo{
+    margin-left: 1vw;
+}
+
+#Ingresar{
+    display: flex;
+    margin: 10vh 0vw 0vh -27.5vw;
+    position: absolute;
+
+    border-radius: 2vw;
+    border: 3px solid rgb(143, 143, 143);
+    background-color: white;
+    width: 50%;
+    height: 60px;
+    cursor: pointer;
+
+    font-weight: 1000;
+    font-size: large;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
